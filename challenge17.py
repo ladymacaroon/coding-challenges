@@ -16,8 +16,6 @@ def compare_ships(ship1, ship2):
         else:
             return 0
 
-
-
 sections = int(sys.stdin.readline().rstrip())
 
 for section in range(sections):
@@ -33,4 +31,3 @@ for section in range(sections):
         all_coordinates.append(coordinates)
 
     sorted_coordinates = sorted(all_coordinates, key=cmp_to_key(compare_ships))
-    print(sorted_coordinates)
