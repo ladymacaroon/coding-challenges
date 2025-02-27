@@ -7,7 +7,6 @@ cases = int(sys.stdin.readline().rstrip())
 for caseNum in range(cases):
     line = sys.stdin.readline().rstrip()
 
-    for caseNum in range(cases):
-        line = sys.stdin.readline().rstrip()
+    coordinates = list(map(int(line.split(' '))))
 
-        print(line)
+    print(coordinates)
