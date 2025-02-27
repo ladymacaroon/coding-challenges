@@ -47,5 +47,3 @@ for section in range(sections):
         destroyed_ship = all_coordinates.pop(0)
         print(f"Destroyed Ship: {destroyed_ship[2]} xLoc {destroyed_ship[0]}")
         advance_ships(all_coordinates)
-    
-    
